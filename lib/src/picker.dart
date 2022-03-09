@@ -163,7 +163,7 @@ class MultiImagePicker {
       <String, dynamic>{
         "identifier": identifier,
       },
-    ) as FutureOr<Map<dynamic, dynamic>>);
+    )); // as FutureOr<Map<dynamic, dynamic>>);
 
     Map<String, dynamic> metadata = Map<String, dynamic>.from(map);
     if (Platform.isIOS) {
